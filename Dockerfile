@@ -6,7 +6,7 @@ MAINTAINER Dave Conroy <dave at tiredofit dot ca>
 
 ### Install Dependencies
    RUN  adduser -S -D -H -h /mine mine && \
-				apk upgrade && \
+				apk update && \
 				apk add \
 						automake \
 						autoconf \
