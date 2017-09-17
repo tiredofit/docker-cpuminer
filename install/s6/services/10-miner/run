@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+
+ALGORITHM=${ALGORITHM:-"cryptonight"}
+HOST=${HOST:-"xmr.pool.minergate.com:45560"}
+THREADS=${THREADS:-"2"}
+USER=${USER:-"dave@tiredofit.ca""
+PASS=${PASS:-"x"}
+
+minerd -a $ALGORITHM -o stratum+tcp://$HOST -u $USER -p $PASS --threads $THREADS

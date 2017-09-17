@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  
+  cpuminer-app:
+    image: tiredofit/cpuminer
+    container_name: cpuminer-app
+    environment:
+    - ZABBIX_HOSTNAME=cpuminer-app
+
+    ALGORITHM=cryptonight
+    HOST=xmr.pool.minergate.com:45560
+    THREADS=2
+    USER=dave@tiredofit.ca
+    PASS=x
+    restart: always
+
