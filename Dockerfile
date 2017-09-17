@@ -31,5 +31,4 @@ MAINTAINER Dave Conroy <dave at tiredofit dot ca>
 				rm -rf /var/cache/apk/* /usr/src/*
 
 ### Entrypoint Setup
-   USER mine
    WORKDIR /mine
