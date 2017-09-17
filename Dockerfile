@@ -30,5 +30,8 @@ MAINTAINER Dave Conroy <dave at tiredofit dot ca>
 						git && \
 				rm -rf /var/cache/apk/* /usr/src/*
 
+### Add Files
+   ADD install /
+
 ### Entrypoint Setup
    WORKDIR /mine
