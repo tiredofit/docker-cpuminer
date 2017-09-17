@@ -34,4 +34,4 @@ MAINTAINER Dave Conroy <dave at tiredofit dot ca>
    ADD install /
 
 ### Entrypoint Setup
-   WORKDIR /mine
+   WORKDIR /cpuminer-multi
