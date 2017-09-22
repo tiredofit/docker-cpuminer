@@ -1,4 +1,4 @@
-# hub.docker.com/tiredofit/cpuminer
+# hub.docker.com/miner
 
 # Introduction
 
@@ -42,7 +42,7 @@ installation.
 
 
 ```bash
-docker pull hub.docker.com/tiredofit/cpuminer
+docker pull hub.docker.com/miner
 ```
 
 

@@ -10,7 +10,7 @@ services:
 
       - ALGORITHM=cryptonight
       - HOST=xmr.pool.minergate.com:45560
-      - THREADS=2
+      - THREADS=4
       - USER=dave@tiredofit.ca
       - PASS=x
     restart: always
